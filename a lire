@@ -1,0 +1,14 @@
+
+Observations :
+
+Les tris semblent trier en 2 catégories distinctes :
+- Une catégorie "lente" : tri par sélection, insertion, et à bulles
+	*Le tri par sélection semble effectuer plus d'opérations que le tri par insertion.
+	*Le tri par insertion serait alors en théorie dans le cas général le plus rapide des trois.
+- Une catégorie "rapide" : tri fusion, rapide, et par tas
+	*Le tri fusion effectue dans presque tous les cas moins d'opérations.Mais on ne prend pas en compte la complexité en espace.
+
+
+Si les listes sont deja triées:
+	*le tri à bulles et le tri par insertion sont ceux qui effectuent le moins d'opérations ;
+	*triées dans l'ordre inverse, le tri rapide effectue nettement plus d'opérations que le tri fusion et par tas.
